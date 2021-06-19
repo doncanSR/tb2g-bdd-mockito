@@ -38,6 +38,7 @@ class SpecialitySDJpaServiceTest {
 
     @Test
     void findByIdTest() {
+        //prueba
         //given
         Speciality speciality = new Speciality();
         given(specialtyRepository.findById(1L)).willReturn(Optional.of(speciality));
